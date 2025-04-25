@@ -1,0 +1,892 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+}
+
+.container{
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.container .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1{
+  color: blue;
+}
+
+.nav-links ul{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links ul li{
+  list-style: none;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+
+span{
+  color: rgb(0, 0, 0);
+}
+
+a:hover{
+  color: black;
+}
+
+.book-btn{
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.book-btn:hover{
+  background-color: white;
+  color: blue;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 4px 8px rgba(65, 154, 255, 0.6);
+}
+
+.head .head-info{
+  text-align: left;
+  padding: 250px 10px 100px 50px;
+  font-size: 30px;
+  color: white;
+}
+
+.head-info h1{
+  font-size: 70px;
+}
+
+.head-info p{
+  font-size: 16px;
+} 
+
+.head-info .head-btn{
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.head-btn:hover{
+  background-color: white;
+  color: blue;
+  transition: ease-in-out 0.3s;
+}
+
+.head{
+  background-image: linear-gradient(90deg, rgba(0,0,0,5), rgba(255, 255, 255, 0.2)), url(img/vita/maternity-specialist-pregnant-woman-with-face-mask-checkup-visit-meeting-talk-about-pregnancy-future-mother-with-baby-bump-asking-medical-advice-from-physician-cabinet-desk.jpg);
+  background-size: cover;
+  background-position: top;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+.overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0 70px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  top: -30px;
+  box-shadow: 0 4px 8px rgba(65, 154, 255, 0.6);
+}
+
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.about img{
+  width: 500px;
+  border-radius: 20px;
+}
+
+.us h3{
+  font-size: 10px;
+  color: blue;
+  padding-bottom: 10px;
+}
+
+.us h2{
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+.us p{
+  font-size: 12px;
+}
+
+.us .us-btn{
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.us-btn:hover{
+  background-color: white;
+  color: blue;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 4px 8px rgba(65, 154, 255, 0.6);
+}
+
+.services{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.services h3{
+  font-size: 10px;
+  color: blue;
+}
+
+.services h2{
+  margin-top: 15px;
+}
+
+.serve img{
+  width: 300px;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.serve{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.serve .serve-one{
+  position: relative;
+  background-color: rgb(211, 206, 206);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.serve-one img{
+  margin-top: 10px;
+}
+
+.serve-one h4{
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.serve-one p{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.serve-one .btn{
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.serve .serve-two{
+  position: relative;
+  background-color: rgb(211, 206, 206);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.serve-two img{
+  margin-top: 10px;
+  height: 224px;
+  object-fit: cover;
+}
+
+.serve-two h4{
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.serve-two p{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.serve-two .btn{
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.serve .serve-three{
+  position: relative;
+  background-color: rgb(211, 206, 206);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.serve-three img{
+  margin-top: 10px;
+  height: 224px;
+  object-fit: cover;
+}
+
+.serve-three h4{
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.serve-three p{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.serve-three .btn{
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.serve .serve-four{
+  position: relative;
+  background-color: rgb(211, 206, 206);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.serve-four img{
+  margin-top: 10px;
+  height: 224px;
+  object-fit: cover;
+}
+
+.serve-four h4{
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.serve-four p{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.serve-four .btn{
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.serve .serve-five{
+  position: relative;
+  background-color: rgb(211, 206, 206);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.serve-five img{
+  margin-top: 10px;
+  height: 224px;
+  object-fit: cover;
+}
+
+.serve-five h4{
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.serve-five p{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.serve-five .btn{
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.serve .btn:hover{
+  background-color: white;
+  color: blue;
+  transition: ease-in-out 0.3s;
+}
+
+.single{
+  background: linear-gradient(90deg, rgba(5, 10, 41, 0.8), rgba(13, 0, 197, 0.9));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  margin-top: 100px;
+  padding: 60px;
+  position: relative;
+}
+
+.single .sing{
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-left: -400px;
+}
+
+.sing h1{
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.sing .sing-btn{
+  margin-top: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sing .sing-btn:hover{
+  box-shadow: 0px 4px 10px 4px rgba(65, 154, 255, 0.8);
+}
+
+.sing p{
+  margin-top: 20px;
+}
+
+.single img{
+  width: 700px;
+  position: absolute;
+  top: -84.7px;
+  right: 200px;
+}
+
+.faqs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.question img{
+  width: 500px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.ques-list{
+  margin-top: 70px;
+}
+
+.ques-list .one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  background-color: rgb(208, 218, 252);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.question h4{
+  font-size: 10px;
+  color: blue;
+}
+
+.question h2{
+  margin-top: 20px;
+}
+
+.blogs{
+  margin-top: 50px;
+}
+
+.blogs h4{
+  text-align: center;
+  font-size: 12px;
+  color: blue;
+}
+
+.blogs h2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.blogs .blogs-tips{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.blogs-tips img{
+  width: 250px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.blogs-tips .tips-one h3{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.blogs-tips .tips-one p{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.tips-one .tips-btn{
+  margin-top: 10px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tips-btn:hover{
+  background-color: white;
+  color: blue;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 4px 8px rgba(65, 154, 255, 0.6);
+}
+
+.footer{
+  background-color: blue;
+  margin-top: 40px;
+  color: white;
+}
+
+.footer .foot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.quick ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.socials ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.socials{
+  margin-bottom: 20px;
+}
+
+.foot a{
+  color: white;
+}
+
+.foot a:hover{
+  color: orange;
+}
+
+.foot .email-phone{
+  margin-bottom: 50px;  
+}
+
+.email-phone h2{
+  margin-top: 10px;
+}
+
+.email-phone p{
+  margin-top: 10px;
+}
+
+.foot .address{
+  margin-bottom: 70px;
+}
+
+.address p{
+  margin-top: 10px;
+}
+
+.footer .line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 70px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.footer .copy{
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.nav-links .bx{
+  display: none;
+}
+
+.header .bx-menu{
+  display: none;
+}
+
+#close-popup:hover{
+  background-color: white;
+  color: blue;
+  box-shadow: 0 4px 8px rgba(65, 154, 255, 0.6);
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    padding: 15px 60px;
+  }
+
+  .header h1{
+    font-size: 20px;
+  }
+
+  .book-btn{
+    display: none;
+  }
+
+  .header .bx-menu{
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .nav-links ul{
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 17px;
+  }
+
+  .nav-links{
+    background: linear-gradient(0deg, rgba(113, 151, 255, 0.3), rgba(29, 101, 255, 0.9));
+    width: 40%;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    display: none;
+  }
+
+  .nav-links .bx{
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .nav-links ul li{
+    font-size: 14px;
+  }
+
+  a{
+    color: white;
+  }
+
+  .head .head-info{
+    padding-top: 400px;
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .head-info h1{
+    font-size: 30px;
+  }
+
+  .head-info p{
+    font-size: 12px;
+  }
+
+  .overlay{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    gap: 30px;
+    top: -20px;
+  }
+
+  .lay-one h3{
+    font-size: 15px;
+  }
+
+  .lay-one p{
+    font-size: 10px;
+  }
+
+  .lay-two h3{
+    font-size: 15px;
+  }
+
+  .lay-two p{
+    font-size: 10px;
+  }
+
+  .lay-three h3{
+    font-size: 15px;
+  }
+
+  .lay-three p{
+    font-size: 10px;
+  }
+
+  .about img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .about{
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .us h3{
+    font-size: 1vmin;
+  }
+
+  .us h2{
+    font-size: 2.9vmin;
+  }
+
+  .us p{
+    font-size: 1.5vmin;
+  }
+
+  .us .us-btn{
+    padding: 7px 20px;
+    font-size: 1.2vmin;
+  }
+
+  .serve{
+    width: 80%;
+    margin: 20px auto;    
+  }
+
+  .serve-one .btn{
+    padding: 7px 30px;
+    font-size: 1.4vmin;
+    top: 420px;
+    left: 200px;
+  }
+
+  .serve-two .btn{
+    padding: 7px 30px;
+    font-size: 1.4vmin;
+    top: 420px;
+    left: 200px;
+  }
+
+  .serve-three .btn{
+    padding: 7px 30px;
+    font-size: 1.4vmin;
+    top: 420px;
+    left: 200px;
+  }
+
+  .serve-four .btn{
+    padding: 7px 30px;
+    font-size: 1.4vmin;
+    top: 420px;
+    left: 200px;
+  }
+
+  .serve-five .btn{
+    padding: 7px 30px;
+    font-size: 1.4vmin;
+    top: 420px;
+    left: 200px;
+  }
+
+  .serve img{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .single{
+    margin: 60px auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  .single .sing{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: -150px;
+  }
+
+  .sing h1{
+    font-size: 3vmin;
+  }
+
+  .sing p{
+    font-size: 1.8vmin;
+  }
+
+  .sing .sing-btn{
+    padding: 7px 30px;
+    font-size: 1.4vmin;
+  }
+
+  .single img{
+    width: 370px;
+    right: 90px;
+    top: -55px;
+  }
+
+  .faqs{
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .faqs .question{
+    margin-bottom: 5px;
+  }
+
+  .faqs .ques-list{
+    margin-top: 0px;
+  }
+
+  .blogs .blogs-tips{
+    flex-direction: column;
+  }
+
+  .blogs-tips img{
+    width: 500px;
+    height: 400px;
+  }
+
+  .blogs-tips .tips-one h3{
+    font-size: 3vmin;
+  }
+
+  .blogs-tips .tips-one p{
+    font-size: 2vmin;
+  }
+
+  .footer .foot{
+    font-size: 10px;
+    font-weight: 800;
+    gap: 30px;
+    padding: 5px 15px;
+  }
+  
+}
