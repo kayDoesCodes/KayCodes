@@ -1,0 +1,2 @@
+<i class='bx bx-check'></i>
+<i class='bx bx-trash'></i>

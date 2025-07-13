@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  background-image: linear-gradient(rgba(124, 80, 10, 0.9), rgba(36, 21, 2, 0.9)),url(img/istockphoto-1135359711-612x612.jpg);
+  background-size:cover;
+  background-position: center;
+  padding: 10px 10px;
+}
+
+.container .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: monospace;
+}
+
+.header .image-one{
+  width: 50px;
+}
+
+.header .Search{
+  margin-right: 10px;
+}
+
+.header .Search input{
+  max-width: 70px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.header .Search button{
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  font-weight: 700;
+  max-width: 70px;
+}
+
+.header .nav-links .action{
+  background-color: white;
+}
+
+.header .nav-links .action a{
+  color: #1f0c03;
+}
+
+.header .nav-links ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.header .nav-links{
+  background-color: rgb(104, 54, 14);
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.header .nav-links ul li{
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.container h1{
+  font-size: 100px;
+  color: white;
+  font-weight: 500;
+}
+
+.container p{
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.container .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text img{
+  width: 300px;
+  position: relative;
+  top: -90px;
+}
+
+.discover{
+  background-color: #70452F;
+  background-size: cover;
+  padding: 50px;
+}
+
+.discover .sweet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.sweet img{
+  width: 350px;
+  border-radius: 15px;
+}
+
+.sweet .para-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  color: white;
+}
+
+.sweet .para-text h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.sweet .para-text h2{
+  font-weight: 500;
+  margin-top: -70px;
+}
+
+.sweet .para-text p{
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.sweet .para-text button{
+  padding: 10px 40px;
+  background-color: #1f0c03;
+  color: white;
+  border: none;
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.reviews{
+  background-color: #CCA281;
+  color: white;
+  font-family: monospace;
+  padding: 20px 200px;
+}
+
+.reviews h1{
+  text-align: center;
+  color: #1f0c03;
+  font-size: 30px;
+}
+
+.reviews h3{
+  text-align: center;
+  color: #1f0c03;
+}
+
+.reviews .revs{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 20px;
+  padding: 30px;
+}
+
+.revs .one{
+  background-color: white;
+  color: #1f0c03;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+  font-weight: 900;
+}
+
+.revs .two{
+  background-color: white;
+  color: #1f0c03;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+  font-weight: 900;
+}
+
+.revs .three{
+  background-color: white;
+  color: #1f0c03;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+  font-weight: 900;
+}
+
+.footer{
+  padding: 20px;
+  background-image: linear-gradient(rgba(255, 192, 97, 0.3), rgb(95, 51, 0, 0.9)),url(img/grains-coffee-drink-pieces-cane-sugar-zero-waste-paper-cup-grains-background-plastic-free-concept-selective-focus_253362-869.jpg);
+  background-size: 100%, 100%, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer .contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  color: white;
+}
+
+.contain img{
+  width: 100px;
+}
+
+.contain input{
+  display: block;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.contain .contact{
+  font-family: 'poppins';
+}
+
+.contact button{
+  padding: 10px 30px;
+  background-color: #1f0c03;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contain .map{
+  font-family: 'poppins';
+  text-align: left;
+}
+
+.map ul{
+  padding: 10px;
+}
+
+.map ul li{
+  list-style: none;
+}
+
+.contain .logo{
+  font-family: 'poppins';
+  font-weight: 300;
+}
+
+.logo .bx{
+  padding: 5px;
+}
+
+.copyright{
+  padding: 10px;
+  text-align: center;
+  background-color: #ecc3a1;
+  font-family: 'poppins';
+  letter-spacing: 3px;
+  font-size: 10px;
+}

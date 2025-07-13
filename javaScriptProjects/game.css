@@ -42,3 +42,13 @@ button:hover{
   background-color: red;
   color: white;
 }
+
+p{
+  width: 50%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}

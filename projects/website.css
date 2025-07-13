@@ -1,0 +1,11 @@
+*{
+  font-family: 'poppins' sans-serif;
+}
+button{
+  background-color: blue;
+  padding: 5px 5px;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

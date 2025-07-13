@@ -1,0 +1,445 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(195, 233, 195);
+  margin: auto 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 40px;
+}
+
+.header ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.header ul li{
+  padding: 20px;
+}
+
+.header .btn-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.header .btn-list select{
+  border-radius: 20px;
+  padding: 6.8px;
+  border: none;
+}
+
+.header .head-text i{
+  color: green;
+}
+
+.header .btn-list button{
+  font-size: 13px;
+  border: none;
+  border-radius: 20px;
+  background-color: green;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.header .btn-list img{
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.btn-list .icon{
+  border-radius: 10px;
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  z-index: -1;
+}
+
+.info{
+  margin: 50px 40px;
+}
+
+.info .lux{
+  color: goldenrod;
+}
+
+.info .liv{
+  color: green;
+}
+
+.info h1{
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.info p{
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.info .arrow{
+  padding-top: 10px;
+}
+
+.info .arrow button{
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.info .arrow i{
+  font-size: 40px;
+  position: relative;
+  top: 12px;
+  left: -4px;
+}
+
+.featured{
+  margin: 80px 40px;
+}
+
+.featured .line{
+  border: 1px solid gray;
+  margin-top: 16px;
+  width: 50%;
+}
+
+.featured h3{
+  font-weight: 500;
+}
+
+.images img{
+  width: 299px;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.images{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.images .imgOne{
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.images .imgTwo{
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.images .imgThree{
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.images .imgFour{
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.images h4{
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.images p{
+  margin-top: 5px;
+  font-weight: 550;
+}
+
+.images button{
+  border: none;
+  padding: 10px;
+  background-color: rgb(98, 255, 67);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: darkgreen;
+  font-weight: 600;
+}
+
+.Sustainable{
+  margin: 80px 40px;
+}
+
+.Sustainable h3{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.Sustainable .line{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: 1px solid gray;
+  width: 50%;
+  margin-top: 20px;
+  position: relative;
+  top: 0;
+  left: 634px;
+}
+
+.Sustainable p{
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.Sustainable .feats{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.Sustainable .feats h4{
+  margin-top: 10px;
+}
+
+.Sustainable .feats p{
+  margin-top: 0px;
+}
+
+.Sustainable .feats i{
+  color: green;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.feats .one{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.feats .two{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.feats .three{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.feats .four{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.works{
+  margin: 30px 40px ;
+}
+
+.works h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  margin-top: 10px;
+  font-weight: 500;
+  position: relative;
+  top: 40px;
+}
+
+.works .tabs{
+  position: relative;
+}
+
+.tabs .tabOne{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tabs .tabOne img{
+  width: 250px;
+}
+
+.tabs .tabOne p{
+  width: 60%;
+}
+
+.tabs .tabOne .tabOne-text{
+  margin-left: 20px;
+}
+
+.tabs .tabOne .tabOne-img{
+  margin-right: 20px;
+}
+
+.tabs .tabTwo{
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.tabTwo .tabTwo-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.clients{
+  margin: 50px 40px;
+}
+
+.clients .line{
+  border: 1px solid gray;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.clients .reviews{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.reviews .revOne{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-bottom-right-radius: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.reviews .revOne img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.reviews .revOne .flex{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.revOne .flex h4{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.updtate{
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.updtate .up{
+  padding: 90px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.updtate .up p{
+  font-size: 15px;
+}
+
+.updtate .up input{
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(205, 240, 205);
+  font-weight: 700;
+}
+
+.updtate .up button{
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(58, 199, 58);
+  color: white;
+  font-weight: 700;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer .foot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.foot nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.foot nav ul li{
+  padding: 20px;
+}
+
+.foot .socials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot .socials p{
+  padding:5px;
+}
+
+footer .line{
+  border: 1px solid white;
+  margin: 20px auto;
+  width: 70%;
+}
+
+footer p{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}

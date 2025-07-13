@@ -645,7 +645,7 @@ a:hover{
   box-shadow: 0 4px 8px rgba(65, 154, 255, 0.6);
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
   .container{
     padding: 15px 60px;
   }
