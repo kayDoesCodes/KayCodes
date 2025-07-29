@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&family=Pacifico&family=Shadows+Into+Light&family=Titan+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Luckiest Guy", cursive;
+  width: 100%;
+}
+
+input::placeholder{
+  font-family: "Luckiest Guy", cursive;
+}
+
+.container{
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+  background-color: rgba(146, 184, 255, 0.527);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
+
+.header .logo{
+  font-size: 25px; 
+  color: rgb(108, 3, 134);
+  text-shadow: rgb(204, 2, 255) 3px 3px 0px;
+}
+
+.header .logo a {
+  text-decoration: none;
+}
+
+.header .options .active{
+  color: white;
+}
+
+.header .options ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .options ul li{
+  list-style: none;
+}
+
+.header .options ul li a{
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.header .options ul li a:hover{
+  color: #0d6efd;
+}
+
+.header .search input{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.header .search button{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #0d6efd;
+  cursor: pointer;
+}
+
+.hero{
+  width: 100%;
+  padding: 80px 50px 100px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(90deg, rgba(75, 32, 104, 0.6), rgba(120, 122, 255, 0.7)), url(images/movies/mov1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.hero #logo{
+  font-size: 50px;
+  text-shadow: rgb(73, 131, 255) 4px 4px 0px;
+}
+
+.hero .info{
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.hero .info span{
+  color: rgb(108, 3, 134);
+  text-shadow: rgb(204, 2, 255) 2px 2px 0px;
+}
+
+.hero #search{
+  width: 50%;
+  display: flex;
+}
+
+.hero #search input{
+  width: 100%;
+  padding: 23px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(146, 184, 255, 0.527);
+}
+
+.hero #search input::placeholder{
+  font-size: 20px;
+  color: white;
+}
+
+.hero #search button{
+  width: 20%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #0d6efd;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hero #search button i{
+  font-size: 20px;
+}
+
+.content{
+  width: 100%;
+  padding: 30px 40px 30px 40px;
+}
+
+.content .movies{
+  width: 100%;
+}
+
+.content .movies a{
+  text-decoration: none;
+  color: black;
+}
+
+.content .movies h2{
+  cursor: pointer;
+  display: inline;
+  transition: 0.3s ease;
+}
+
+.content .movies h2:hover{
+  color: rgb(61, 61, 255);
+}
+
+.content .movies .movie-list{
+  width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 15px;
+ padding: 10px 20px 10px 20px;
+ font-size: 10px;
+}
+
+.content .movies .movie-list .movie{
+  cursor: pointer;
+}
+
+.content .movies .movie-list .movie:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+.content .movies hr{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.content .movies .movie-list img{
+  width: 100%;
+  height: 230px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.content .series{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.content .series a{
+  text-decoration: none;
+  color: black;
+}
+
+.content .series h2{
+  cursor: pointer;
+  display: inline;
+  transition: 0.3s ease;
+}
+
+.content .series h2:hover{
+  color: rgb(61, 61, 255);
+}
+
+.content .series hr{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.content .series .series-list{
+  width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 15px;
+ padding: 10px 20px 10px 20px;
+ font-size: 12px;
+}
+
+.content .series .series-list .serie{
+  cursor: pointer;
+}
+
+.content .series .series-list .serie:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+.content .series .series-list img{
+  width: 100%;
+  height: 230px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.content .anime{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.content .anime a{
+  text-decoration: none;
+  color: black;
+}
+
+.content .anime h2{
+  cursor: pointer;
+  display: inline;
+  transition: 0.3s ease;
+}
+
+.content .anime h2:hover{
+  color: rgb(61, 61, 255);
+}
+
+.content .anime hr{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.content .anime .anime-list{
+  width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 15px;
+ padding: 10px 20px 10px 20px;
+ font-size: 12px;
+}
+
+.content .anime .anime-list .animes{
+  cursor: pointer;
+}
+
+.content .anime .anime-list .animes:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+.content .anime .anime-list img{
+  width: 100%;
+  height: 230px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.news{
+  width: 100%;
+  padding: 50px 40px 50px 40px;
+  background-color: rgb(211, 101, 255);
+}
+
+.news .letter{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.news .letter p{
+  font-size: 25px;
+}
+
+.news .letter .form{
+ width: 50%;
+ display: flex;
+}
+
+.news .letter .form input{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  outline: none;
+}
+
+.news .letter .form button{
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  outline: none;
+  font-family: "Luckiest Guy", cursive;
+  cursor: pointer;
+  background-color: #3584fc;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.news .letter .form button:hover{
+  background-color: #004bbd;
+}
