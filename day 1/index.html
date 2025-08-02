@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="moovies.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moovies</title>
+  <title>Movies</title>
 </head>
 <body>
   <div class="container">
@@ -20,7 +20,7 @@
         <ul>
           <li><a href="index.html" class="active">home</a></li>
           <li><a href="movies.html">movies</a></li>
-          <li><a href="series.html">series</a></li>
+          <li><a href="series.html">tv-series</a></li>
           <li><a href="anime.html">anime</a></li>
           <li><a href="#">about-us</a></li>
         </ul>
@@ -41,7 +41,7 @@
 
       <div class="info">
         <p>Explore a vast collection of movies, series and anime all in one place.</p>
-        <p>Discover new movies, binge-watch your favourite series, and stay updated with the latest anime here on <span>M <i class="fa fa-video-camera" aria-hidden="true"></i> vies.</span></p>
+        <p>Discover new movies, binge-watch / Download your favourite series, and stay updated with the latest anime here on <span>M <i class="fa fa-video-camera" aria-hidden="true"></i> vies.</span></p>
       </div>
 
       <div id="search">
@@ -54,93 +54,25 @@
     <section class="content">
 
       <div class="movies">
-        <a href="movies.html"><h2>Movies <i class="fa fa-film" aria-hidden="true"></i></h2></a>
+        <a href="movies.html"><h2>Movies <i class="fa fa-film" aria-hidden="true"></i> <i class="fa fa-arrow-right" aria-hidden="true"></i></h2></a>
         <hr>
-        <div class="movie-list">
-          <div class="movie">
-            <img src="images/movies/mov1.jpg" alt="">
-            <p><strong>The Batman</strong></p>
-          </div>
-
-          <div class="movie">
-            <img src="images/movies/mov2.jpg" alt="">
-            <p><strong>Superman</strong></p>
-          </div>
-
-          <div class="movie">
-            <img src="images/movies/mov3.jpg"  alt="">
-            <p><strong>Thunderbolts*</strong></p>
-          </div>
-
-          <div class="movie">
-            <img src="images/movies/mov4.jpg"  alt="">
-            <p><strong>Spider-man(into the spiderverse)</strong></p>
-          </div>
-
-          <div class="movie">
-            <img src="images/movies/mov5.jpg"  alt="">
-            <p><strong>Venom</strong></p>
-          </div>
-
-          <div class="movie">
-            <img src="images/movies/mov6.jpg"  alt="">
-            <p><strong>Aladin</strong></p>
-          </div>
-
-          <div class="movie">
-            <img src="images/movies/mov7.jpg"  alt="">
-            <p><strong>Baby Driver</strong></p>
-          </div>
+        <div class="movie-list js-movies-data">
         </div>
       </div>
 
       <div class="series">
-        <a href="series.html"><h2>Series <i class="fa fa-film" aria-hidden="true"></i></h2></a>
+        <a href="series.html"><h2>TV-Series <i class="fa fa-film" aria-hidden="true"></i> <i class="fa fa-arrow-right" aria-hidden="true"></i></h2></a>
         <hr>
 
-        <div class="series-list">
-          <div class="serie">
-            <img src="images/series/series1.jpg" alt="">
-            <p><strong>SnowFall</strong></p>
-          </div>
-
-          <div class="serie">
-            <img src="images/series/series2.jpg" alt="">
-            <p><strong>The boys</strong></p>
-          </div>
-
-          <div class="serie">
-            <img src="images/series/series3.jpg" alt="">
-            <p><strong>Peaky blinders</strong></p>
-          </div>
-
-          <div class="serie">
-            <img src="images/series/series4.jpg" alt="">
-            <p><strong>Squid Game</strong></p>
-          </div>
-
-          <div class="serie">
-            <img src="images/series/series5.jpg" alt="">
-            <p><strong>Vampire Diaries</strong></p>
-          </div>
-
-          <div class="serie">
-            <img src="images/series/series6.jpg" alt="">
-            <p><strong>The Last Of Us</strong></p>
-          </div>
-
-          <div class="serie">
-            <img src="images/series/series7.jpg" alt="">
-            <p><strong>Euphoria</strong></p>
-          </div>
+        <div class="series-list js-series-data">
         </div>
       </div>
 
       <div class="anime">
-        <a href="anime.html"><h2>Anime <i class="fa fa-film" aria-hidden="true"></i></h2></a>
+        <a href="anime.html"><h2>Anime <i class="fa fa-film" aria-hidden="true"></i> <i class="fa fa-arrow-right" aria-hidden="true"></i></h2></a>
         <hr>
 
-        <div class="anime-list">
+        <div class="anime-list js-anime-data">
           <div class="animes">
             <img src="images/anime/ani1.jpg" alt="">
             <p><strong>Demon Slayer</strong></p>
@@ -193,6 +125,6 @@
 
   </div>
 
-  <script type="module" src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

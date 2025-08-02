@@ -25,7 +25,35 @@ const series = [{
 {
   image: "images/series/series7.jpg",
   name: "Euphoria"
-}];
+},
+{
+  image: "images/series/series8.jpg",
+  name: "Walking Dead"
+},
+{
+  image: "images/series/series9.jpg",
+  name: "Arcane"
+},
+{
+  image: "images/series/series10.jpg",
+  name: "DareDevil"
+},
+{
+    image:"images/series/series11.jpg",
+    name: "Gotham"
+  },
+  {
+    image:"images/series/series12.jpg",
+    name: "Fallout"
+  },
+  {
+    image:"images/series/series13.jpg",
+    name: "The 100"
+  },
+  {
+    image:"images/series/series14.jpg",
+    name: "Riverdale"
+  }];
 
 let seriesHTML = '';
 
