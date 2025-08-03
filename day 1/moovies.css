@@ -386,49 +386,51 @@ input::placeholder{
 
 /* information page */
 
-.info{
+.folder{
   width: 100%;
   padding: 50px 25px 40px 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
   align-items: start;
 }
 
-.info .movie-info{
+.inform .folder .movie-info{
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.info .movie-info .movie-img{
-  width: 70%;
-}
-
-.info .movie-info .movie-img img{
+.inform .folder .movie-info .movie-img{
   width: 100%;
 }
 
-.info .movie-info .movie-descript{
-  width: 70%;
+.inform .movie-info .movie-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.inform .movie-info .movie-descript{
+  width: 100%;
   padding-top: 5px;
 }
 
-.info .movie-info .movie-descript h2{
+.inform .movie-info .movie-descript h2{
   font-size: 35px;
 }
 
-.info .movie-info .movie-descript p{
+.inform .movie-info .movie-descript p{
   font-family: "Exo 2", sans-serif;
   font-weight: 700;
   padding-top: 13px;
 }
 
-.info .movie-info .download-movie{
-  width: 50%;
+.inform .movie-info .download-movie{
+  width: 70%;
   padding-top: 10px;
 }
 
-.info .movie-info .download-movie button{
+.inform .movie-info .download-movie button{
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -441,30 +443,98 @@ input::placeholder{
   transition: 0.3s ease-in-out;
 }
 
-.info .movie-info .download-movie button:hover{
+.inform .movie-info .download-movie button:hover{
   background-color: #3584fc;
 }
 
-.info .movie-info .recomended-movies{
+.inform .movie-info .recomended-movies{
   width: 100%;
   margin-top: 50px;
 }
 
-.info .movie-info .recomended-movies .rec-movies{
-  width: 80%;
+.inform .movie-info .recomended-movies .rec-movies{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.info .movie-info .recomended-movies .rec-movies .rec-movie-list{
+.inform .movie-info .recomended-movies .rec-movies .rec-movie-list{
   cursor: pointer;
 }
 
-.info .movie-info .recomended-movies .rec-movies img{
+.inform .movie-info .recomended-movies .rec-movies img{
   width: 100%;
   border-radius: 10px;
+}
+
+.inform .trailer-and-comment{
+  width: 100%;
+}
+
+.inform .trailer-and-comment .movie-trailer{
+  width:100%;
+}
+
+.inform .trailer-and-comment .movie-trailer iframe{
+  border-radius: 10px;
+  height: 400px;
+}
+
+.inform .trailer-and-comment .comment{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inform .trailer-and-comment .comment h3{
+  font-size: 30px;
+}
+
+.inform .trailer-and-comment .comment p{
+  margin-top: 5px;
+}
+
+.inform .trailer-and-comment .comment input{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgb(201, 201, 201);
+}
+
+.inform .trailer-and-comment .comment textarea{
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgb(201, 201, 201);
+}
+
+textarea::placeholder{
+  font-family: "Luckiest Guy", cursive;
+}
+
+.inform .trailer-and-comment .comment button{
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  background: blue;
+  cursor: pointer;
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+  font-size: 20px;
 }
 
 

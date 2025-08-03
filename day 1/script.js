@@ -1,7 +1,15 @@
 const data = [{
   movies: [{
     image: "images/movies/mov1.jpg",
-    name: "The Batman"
+    name: "The Batman",
+    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id error ipsam dolores possimus. Deserunt, voluptatem voluptatum rerum id fugiat temporibus eum esse accusamus explicabo ut enim cum ratione nobis!",
+    genre: "Action | Crime | Drama",
+    rating: "100%",
+    director: "Matt Reeves",
+    starring: "Robert Pattinson, Zoe Kravitz, Paul Dano...",
+    runtime: "02:56:15",
+    audio: "English",
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/mqqft2x_Aa4?si=uk1cER9l-_JR5qhx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov2.jpg",
@@ -182,7 +190,7 @@ data.forEach((category) => {
     category.movies.forEach(movie => {
       movieHTML += `
       <div class="movie">
-        <a href="information-page.html">
+        <a href="information-page.html?movie=${movie.image}">
           <img src="${movie.image}" alt="">
           <p><strong>${movie.name}</strong></p>
         </a>
