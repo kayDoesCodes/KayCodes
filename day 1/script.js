@@ -1,15 +1,7 @@
 const data = [{
   movies: [{
     image: "images/movies/mov1.jpg",
-    name: "The Batman",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id error ipsam dolores possimus. Deserunt, voluptatem voluptatum rerum id fugiat temporibus eum esse accusamus explicabo ut enim cum ratione nobis!",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Matt Reeves",
-    starring: "Robert Pattinson, Zoe Kravitz, Paul Dano...",
-    runtime: "02:56:15",
-    audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/mqqft2x_Aa4?si=uk1cER9l-_JR5qhx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    name: "The Batman"
   },
   {
     image: "images/movies/mov2.jpg",
@@ -29,7 +21,7 @@ const data = [{
   },
   {
     image: "images/movies/mov6.jpg",
-    name: "Aladin"
+    name: "Aladdin"
   },
   {
     image: "images/movies/mov7.jpg",
@@ -246,3 +238,23 @@ setInterval(() => {
   hero.style.backgroundImage = backgrounds[current];
   current = (current + 1) % backgrounds.length;
 }, 3000);
+
+const openMenu = document.getElementById("js-menu-open");
+const closeMenu = document.getElementById("js-menu-close");
+const menu = document.querySelector(".navbar");
+
+openMenu.addEventListener("click",(event) => {
+  menu.style.display = 'block';
+  event.stopPropagation();
+});
+
+closeMenu.addEventListener("click", (event) => {
+  menu.style.display = 'none';
+  event.stopPropagation();
+});
+
+document.addEventListener("click", (event) => {
+  if(menu.style.display === 'block' && !menu.contains(event.target) && event.target !== openMenu) {
+    menu.style.display = 'none';
+  }
+});

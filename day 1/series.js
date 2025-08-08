@@ -67,3 +67,23 @@ series.forEach((seriesList) => {
 });
 
 document.querySelector('.js-series-list').innerHTML = seriesHTML;
+
+const openMenu = document.getElementById("js-menu-open");
+const closeMenu = document.getElementById("js-menu-close");
+const menu = document.querySelector(".navbar");
+
+openMenu.addEventListener("click",(event) => {
+  menu.style.display = 'block';
+  event.stopPropagation();
+});
+
+closeMenu.addEventListener("click", (event) => {
+  menu.style.display = 'none';
+  event.stopPropagation();
+});
+
+document.addEventListener("click", (event) => {
+  if(menu.style.display === 'block' && !menu.contains(event.target) && event.target !== openMenu) {
+    menu.style.display = 'none';
+  }
+});

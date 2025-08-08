@@ -50,122 +50,122 @@ const data = [{
   {
     image: "images/movies/mov5.jpg",
     name: "Venom",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "a 2018 superhero film in which journalist Eddie Brock (Tom Hardy) becomes the host for an alien symbiote, Venom, after an experiment by the Life Foundation goes wrong.",
+    genre: "Action | Horro | Comedy | Superhero",
+    rating: "31%",
+    director: "Ruben Fleischer",
+    starring: "Tom Hardy, Michelle williams, JRiz Ahmed...",
+    runtime: "01:48:48",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/u9Mv98Gr5pY?si=eYfN_sU-_A6Q8Rt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov6.jpg",
-    name: "Aladin",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    name: "Aladdin",
+    description: "a Disney story about a resourceful street urchin who finds a magic lamp, releasing a Genie who grants him three wishes.",
+    genre: "Action | Comedy | Romance | Drama",
+    rating: "57%",
+    director: "Guy Ritchie",
+    starring: "Will Smith, Mena Massoud, Naomi Scott...",
+    runtime: "02:08:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-G5XI61Y9ms?si=r5rhrspJzp6dfNd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov7.jpg",
     name: "Baby Driver",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "a 2017 action film about a young, talented, and partially deaf getaway driver named Baby who uses music to synchronize his driving and pay off a debt to crime boss Doc.",
+    genre: "Action | Crime | Comedy | Heist",
+    rating: "92%",
+    director: "Edgar Wright",
+    starring: "Ansel Elgort, Kelvin Spacey, Jamie Fox...",
+    runtime: "01:53:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/zTvJJnoWIPk?si=dBQwb8h-OI-wMcl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov8.jpg",
     name: "Cargo",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "an Australian post-apocalyptic thriller about an infected father, Andy (Martin Freeman), who has 48 hours to find a guardian for his infant daughter, Rosie, before he turns into a zombie.",
+    genre: "Horror | Thriller | Adventure",
+    rating: "88%",
+    director: "Ben Howling, Yolanda Ramke",
+    starring: "Martin Freeman, Simon Landers, Nova Sjoberg...",
+    runtime: "01:45:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/W5QJW0M5pik?si=UUxO8n_reBCxfKSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov9.jpg",
     name: "Guardians of the galaxy",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "follows Peter Quill, a space adventurer who steals a powerful orb, leading him to form an unlikely team with the assassin Gamora, the vengeful Drax, the genetically engineered raccoon Rocket, and the tree-like Groot to protect the universe from the fanatical villain Ronan the Accuser.",
+    genre: "Action | Comedy | Sci-fi | Superhero",
+    rating: "92%",
+    director: "James Gunn",
+    starring: "Chris pratt, Zoe Saldaña, Vin Diesel...",
+    runtime: "02:02:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/d96cjJhvlMA?si=xFwZVgh6ExQDYPX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov10.jpg",
     name: "Pulp Fiction",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "a non-chronological crime film by Quentin Tarantino about several interconnected stories in Los Angeles, including those of two hitmen, a boxer, a gangster, his wife, and a pair of robbers.",
+    genre: "Action | Comedy | Thriller | Crime",
+    rating: "92%",
+    director: "Quentin Tarantino",
+    starring: "John Travolta, Uma Thurman, Samuel L. Jackson...",
+    runtime: "02:43:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/tGpTpVyI_OQ?si=_wqt9raaVK91k2cN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov11.jpg",
     name: "Extraction",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "a 2020 Netflix action thriller starring Chris Hemsworth as Tyler Rake, a black-market mercenary tasked with rescuing the kidnapped son of an imprisoned Indian drug lord in Dhaka, Bangladesh.",
+    genre: "Action | Crime | Thriller | Adventure",
+    rating: "67%",
+    director: "Sam Hargrave",
+    starring: "Chris Hemsworth, Rudhraksh Jaiswal, Randeep Hooda...",
+    runtime: "01:56:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/L6P3nI6VnlY?si=4Pzj-mss9OWkOx_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov12.jpg",
     name: "Sicario",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "a 2015 action-thriller about an idealistic FBI agent, Kate Macer (Emily Blunt), who joins a secret government task force to fight a brutal Mexican drug cartel.",
+    genre: "Action | Crime | Horror | Thriller",
+    rating: "92%",
+    director: "Denis Villeneuve",
+    starring: "Emily Blunt, Benicio Del Toro, Josh Brolin...",
+    runtime: "02:01:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/Yfhu5JIxnZc?si=cIWh9bj981QWF4-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov13.jpg",
     name: "Dora",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "follows a teenage Dora who, having grown up in the jungle, is sent to high school and must adapt to a new environment before leading her friends—Boots, cousin Diego, and a group of teens—on an adventure to find her missing explorer parents and the legendary lost Inca city of Parapata.",
+    genre: "Action | Animation | Adventure | Comedy",
+    rating: "80%",
+    director: "James Bobin",
+    starring: "Isabela Merced, Eugenio Derbez, Michael Peña...",
+    runtime: "01:42:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/gUTtJjV852c?si=zcsadBeAr1Vup7ZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     image: "images/movies/mov14.jpg",
     name: "Fury",
-    description: "After being ensnared in a death trap, this dysfunctional group is forced on a dangerous mission, forcing them to confront their pasts and decide if they will tear themselves apart or find redemption.",
-    genre: "Action | Crime | Drama",
-    rating: "100%",
-    director: "Jake Schreier",
-    starring: "Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus...",
-    runtime: "02:06:50",
+    description: "a World War II film starring Brad Pitt about a battle-hardened American tank commander, 'Wardaddy' and his crew as they fight their way through Germany in the closing days of the war.",
+    genre: "Action | War | Comedy | Adventure",
+    rating: "76%",
+    director: "David Ayer",
+    starring: "Brad Pitt, Shia LaBeouf, Logan Lerman, Michael Peña...",
+    runtime: "02:14:00",
     audio: "English",
-    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-sAOWhvheK8?si=LOutdqMOjqL_XsX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    trailer: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/q94n3eWOWXM?si=phmOJQDbNBOs1Khk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   }]
 },
 {
@@ -334,26 +334,8 @@ if(selectedMovie) {
             <div class="recomended-movies">
               <h2>Recomended Movies</h2>
 
-              <div class="rec-movies">
-                <div class="rec-movie-list">
-                  <img src="images/movies/mov1.jpg" alt="">
-                  <p>The Batman</p>
-                </div>
-
-                <div class="rec-movie-list">
-                  <img src="images/movies/mov1.jpg" alt="">
-                  <p>The Batman</p>
-                </div>
-
-                <div class="rec-movie-list">
-                  <img src="images/movies/mov1.jpg" alt="">
-                  <p>The Batman</p>
-                </div>
-
-                <div class="rec-movie-list">
-                  <img src="images/movies/mov1.jpg" alt="">
-                  <p>The Batman</p>
-                </div>
+              <div class="rec-movies js-rec-movies">
+                
               </div>
             </div>
           </div>
@@ -376,3 +358,74 @@ if(selectedMovie) {
     };
 
 document.querySelector(".js-inform-page").innerHTML = infoHTML;
+
+// ...existing code to find selectedMovie...
+
+let recommendedMovies = [];
+
+if (selectedMovie) {
+
+  // Split the selected movie's genres into an array
+  const selectedGenres = selectedMovie.genre.split('|').map(g => g.trim().toLowerCase());
+
+  // Find movies with the same genre (excluding the selected movie)
+  data.forEach(category => {
+    if (category.movies) {
+      category.movies.forEach(movie => {
+        if (movie.image !== selectedMovie.image) {
+          const movieGenres = movie.genre.split('|').map(g => g.trim().toLocaleLowerCase());
+          const CommonGenre = movieGenres.filter(genre => selectedGenres.includes(genre));
+          if(CommonGenre.length >= 2){
+            recommendedMovies.push(movie);
+          }
+        }
+      });
+    }
+  });
+};
+
+function shuffle(array) {
+  for(let i = array.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  } 
+};
+
+shuffle(recommendedMovies);
+
+recommendedMovies = recommendedMovies.slice(0, 4);
+
+let recHTML = "";
+
+recommendedMovies.forEach(movie => {
+  recHTML += `
+    <a href="information-page.html?movie=${movie.image}">
+      <div class="rec-movie-list">
+        <img src="${movie.image}" alt="">
+        <p>${movie.name}</p>
+      </div>
+    </a>
+  `;
+});
+
+document.querySelector(".js-rec-movies").innerHTML = recHTML;
+
+const openMenu = document.getElementById("js-menu-open");
+const closeMenu = document.getElementById("js-menu-close");
+const menu = document.querySelector(".navbar");
+
+openMenu.addEventListener("click",(event) => {
+  menu.style.display = 'block';
+  event.stopPropagation();
+});
+
+closeMenu.addEventListener("click", (event) => {
+  menu.style.display = 'none';
+  event.stopPropagation();
+});
+
+document.addEventListener("click", (event) => {
+  if(menu.style.display === 'block' && !menu.contains(event.target) && event.target !== openMenu) {
+    menu.style.display = 'none';
+  }
+});
